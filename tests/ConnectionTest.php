@@ -3,25 +3,25 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Ark PHP Client.
+ * This file is part of PHANTOM PHP Client.
  *
- * (c) Ark Ecosystem <info@ark.io>
+ * (c) PHANTOM <info@phantom.org>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Client;
+namespace PhantomChain\Tests\Client;
 
-use ArkEcosystem\Client\Connection;
-use ArkEcosystem\Client\API\AbstractAPI;
-use ArkEcosystem\Client\ConnectionManager;
+use PhantomChain\Client\Connection;
+use PhantomChain\Client\API\AbstractAPI;
+use PhantomChain\Client\ConnectionManager;
 
 /**
  * This is the connection manager test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\Connection
+ * @covers \PhantomChain\Client\Connection
  */
 class ConnectionTest extends TestCase
 {

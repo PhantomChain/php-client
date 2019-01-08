@@ -3,15 +3,15 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Ark PHP Client.
+ * This file is part of PHANTOM PHP Client.
  *
- * (c) Ark Ecosystem <info@ark.io>
+ * (c) PHANTOM <info@phantom.org>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client;
+namespace PhantomChain\Client;
 
 use RuntimeException;
 use GuzzleHttp\Client;
@@ -77,12 +77,12 @@ class Connection
      *
      * @param string $name
      *
-     * @return \ArkEcosystem\Client\API\AbstractAPI
+     * @return \PhantomChain\Client\API\AbstractAPI
      */
     public function api(string $name): API\AbstractAPI
     {
         $name = ucfirst($name);
-        $class = "ArkEcosystem\\Client\\API\\{$name}";
+        $class = "PhantomChain\\Client\\API\\{$name}";
 
         if (! class_exists($class)) {
             throw new RuntimeException("Class [$class] does not exist.");

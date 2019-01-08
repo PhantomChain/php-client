@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Ark PHP Client.
+ * This file is part of PHANTOM PHP Client.
  *
- * (c) Ark Ecosystem <info@ark.io>
+ * (c) PHANTOM <info@phantom.org>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Client\API;
+namespace PhantomChain\Client\API;
 
 use GuzzleHttp\Client;
-use ArkEcosystem\Client\Connection;
-use ArkEcosystem\Client\Http\Request;
-use ArkEcosystem\Client\Contracts\API;
+use PhantomChain\Client\Connection;
+use PhantomChain\Client\Http\Request;
+use PhantomChain\Client\Contracts\API;
 
 /**
  * This is the abstract resource class.
@@ -28,14 +28,14 @@ abstract class AbstractAPI
     /**
      * The client connection.
      *
-     * @var \ArkEcosystem\Client\Connection
+     * @var \PhantomChain\Client\Connection
      */
     public $connection;
 
     /**
      * Create a new API class instance.
      *
-     * @param \ArkEcosystem\Client\Connection $connection
+     * @param \PhantomChain\Client\Connection $connection
      */
     public function __construct(Connection $connection)
     {

@@ -3,23 +3,23 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Ark PHP Client.
+ * This file is part of PHANTOM PHP Client.
  *
- * (c) Ark Ecosystem <info@ark.io>
+ * (c) PHANTOM <info@phantom.org>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace ArkEcosystem\Tests\Client\API;
+namespace PhantomChain\Tests\Client\API;
 
-use ArkEcosystem\Tests\Client\TestCase;
+use PhantomChain\Tests\Client\TestCase;
 
 /**
  * This is the votes resource test class.
  *
  * @author Brian Faust <brian@ark.io>
- * @covers \ArkEcosystem\Client\API\Votes
+ * @covers \PhantomChain\Client\API\Votes
  */
 class VotesTest extends TestCase
 {
@@ -44,6 +44,6 @@ class VotesTest extends TestCase
      */
     protected function getApiClass()
     {
-        return \ArkEcosystem\Client\API\Votes::class;
+        return \PhantomChain\Client\API\Votes::class;
     }
 }

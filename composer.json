@@ -1,7 +1,7 @@
 {
-    "name": "arkecosystem/client",
-    "description": "A simple PHP API client for the Ark Blockchain.",
-    "keywords": ["api", "ark", "blockchain", "crypto", "currency"],
+    "name": "phantomchain/client",
+    "description": "A simple PHP API client for the PHANTOM Blockchain.",
+    "keywords": ["api", "phantom", "blockchain", "crypto", "currency"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ArkEcosystem\\Client\\": "src"
+            "PhantomChain\\Client\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ArkEcosystem\\Tests\\Client\\": "tests"
+            "PhantomChain\\Tests\\Client\\": "tests"
         }
     },
     "config": {
